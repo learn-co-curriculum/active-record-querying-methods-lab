@@ -41,7 +41,7 @@ describe Show do
   end
 
   describe "::most_popular_show" do
-    it "returns the tv show with the highest rating" do
+    it "returns name of the TV show with the highest rating" do
       expect(Show.most_popular_show).to eq(@rick_and_morty)
     end
   end
