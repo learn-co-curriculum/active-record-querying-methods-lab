@@ -41,7 +41,7 @@ describe Show do
   end
 
   describe ".most_popular_show" do
-    it "returns the name of the TV show with the highest rating" do
+    it "returns the TV show with the highest rating" do
       expect(Show.most_popular_show).to eq(@rick_and_morty)
     end
   end
@@ -53,7 +53,7 @@ describe Show do
   end
 
   describe ".least_popular_show" do
-    it "returns the name of the TV show with the lowest rating" do
+    it "returns the TV show with the lowest rating" do
       expect(Show.least_popular_show).to eq(@the_cleveland_show)
     end
   end
